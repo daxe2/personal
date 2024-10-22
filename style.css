@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.name{
+    box-decoration-break: slice;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.name h1{
+    height: 100px;
+    font-family: Cursive;
+    height: 20px;
+    width: 100%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: rgb(14, 13, 13);
+    margin-top: 50px;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+.name h1:hover {
+    text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.pic{
+    display: flex;              /* Enables Flexbox */
+    justify-content: center;     /* Centers horizontally */
+    align-items: center;         /* Centers vertically */
+    height: 40vh;               /* Full viewport height for vertical centering */
+}
+.img1{
+    width: 300px;
+    height: 10px;
+    object-fit: cover; 
+    border-radius: 200%;
+    margin-top: 90px;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.4);
+    transition: width 0.3s ease;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+}
+.img1:hover {
+    box-shadow: 0px 15px 30px rgba(0.6, 0.6, 0.6, 0.6); /* Enhanced shadow on hover */
+}
+.navigation {
+    text-align: center;
+    margin-top: 40px;
+   letter-spacing: 2;
+   font-family: cursive;
+   transition: color 0.5s ease, text-shadow 0.5s ease; /* Smooth transition for color and shadow */
+}
+.navigation a:hover {
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+.navigation a {
+    text-decoration: none; /* Removes the underline */
+    transition: color 0.5s ease, text-shadow 0.5s ease; /* Smooth transition for color and shadow */
+}
+.about{
+    font-family: cursive;
+    margin-top: 100px;
+}
+.about h1{
+    text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    margin-left: 60px;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+    
+}
+.about h1 :hover{
+    text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.6);
+}
+.about p{
+    font-size: 10;
+    margin-bottom: 10px;
+    margin-left:60px;
+    margin-right: 60px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+    word-wrap: normal;
+    word-spacing: 5;
+}
+
+#right{
+text-align: right;
+}
+.img3{
+height: 300px;
+border-radius: 30px;
+box-shadow:  1px 10px 20px rgba(0, 0, 0, 0.9);
+text-align: center;
+display: block;
+margin: 20px auto;
+transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.img3:hover {
+    box-shadow: 0px 15px 30px rgba(0.6, 0.6, 0.6, 1.3); /* Enhanced shadow on hover */
+}
+.hobby{
+    font-family: cursive;
+    margin-top: 100px;
+}
+.hobby h1{
+    text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    margin-left: 20px;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+.hobby p{
+    font-size: 10;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+    word-wrap: normal;
+    word-spacing: 5;
+}
+
+.Contact{
+    font-family: cursive;
+    
+}
+/* Adjustments for screens smaller than 480px (smaller phones) */
+@media (max-width: 480px) {
+    .name h1 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .img1 {
+        width: 120px; /* Further reduce image size for small screens */
+        margin-top: 10px;
+    }
+
+    .about p, .hobby p {
+        font-size: 12px;
+        word-spacing: 2px;
+    }
+
+    .about h1, .hobby h1 {
+        font-size: 18px;
+    }
+
+    .img3 {
+        height: 150px; /* Smaller image for smaller screens */
+    }
+
+    .navigation {
+        font-size: 20px;
+    }
+}
+
+.name {
+    box-decoration-break: slice;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.name h1 {
+    height: 100px;
+    font-family: Cursive;
+    width: 100%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: rgb(14, 13, 13);
+    margin-top: 50px;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.name h1:hover {
+    text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.img1 {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 200%;
+    margin-top: 90px;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.4);
+    transition: width 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.img1:hover {
+    box-shadow: 0px 15px 30px rgba(0.6, 0.6, 0.6, 0.6);
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-family: cursive;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+}
+
+.navigation a:hover {
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navigation a {
+    text-decoration: none;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+}
+
+.about {
+    font-family: cursive;
+    margin-top: 100px;
+}
+
+.about h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    margin-left: 20px;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.about h1:hover {
+    text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.about p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+    word-wrap: normal;
+    word-spacing: 5px;
+}
+
+#right {
+    text-align: right;
+}
+
+.img3 {
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.img3:hover {
+    box-shadow: 0px 15px 30px rgba(0.6, 0.6, 0.6, 1.3);
+}
+
+.hobby {
+    font-family: cursive;
+    margin-top: 100px;
+}
+
+.hobby h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    margin-left: 20px;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.hobby p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+    word-wrap: normal;
+    word-spacing: 5px;
+}
